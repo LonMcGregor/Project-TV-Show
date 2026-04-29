@@ -4,7 +4,7 @@ One of the most powerful things a software engineer can do is take some data and
 
 The aim of this project is to take some data someone else has (and exposes over an API), and display it to users. The data we're using for this project is about episodes of TV shows.
 
-This project will take you multiple weeks to complete. As always, we will break down the project into levels we can deliver incrementally. You must finish each milestone before you start working on the next one (but it's ok to know what the future levels are going to be - it may help you design things). Your goal is to complete all of the levels up to and including level 500 during the Data Flows module.
+This project will take you multiple weeks to complete. As always, we will break down the project into levels we can deliver incrementally. You must finish each milestone before you start working on the next one (but it's OK to know what the future levels are going to be - it may help you design things). Your goal is to complete all of the levels up to and including level 500 during the Data Flows module.
 
 ## Goals
 
@@ -110,4 +110,4 @@ You can choose whatever is easiest - given there may be multiple issues, groupin
 The trainee will deal with the issues and should check in replying to these issues.
 Check any changes made, and if all problems are resolved, you can close the issue.
 You may wish to double-check your notification settings to make sure you are notified for any replies or activity on these issues.
-When allthe issues you opened are closed, the task is considered "complete".
+When all the issues you opened are closed, the task is considered "complete".
