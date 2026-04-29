@@ -1,0 +1,10 @@
+name: Coursework Review
+description: For a volunteer to review a coursework project
+title: "[Review] <title>"
+labels: []
+body:
+  - type: textarea
+    attributes:
+      label: Any problems you want to discuss, or something you want to highlight was done well
+    validations:
+      required: true
