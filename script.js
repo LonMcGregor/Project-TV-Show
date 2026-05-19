@@ -13,4 +13,20 @@ function makePageForEpisodes(episodeList) {
   episodeList.forEach(addSingleEp);
 }
 
+function search(e){
+  const rootel = document.getElementById("root");
+  Array.from(rootel.children).forEach(child => {
+    rootel.removeChild(child);
+  })
+  if(e.target.value.length > 0){
+    const allEpisodes = getAllEpisodes().filter(ep => ep.name.indexOf(e.target.value) > -1);
+    makePageForEpisodes(allEpisodes);
+  } else {
+    setup();
+  }
+
+}
+
+document.getElementById("search").addEventListener("input", search);
+
 window.onload = setup;
