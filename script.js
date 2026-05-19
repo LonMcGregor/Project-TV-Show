@@ -19,7 +19,7 @@ function search(e){
     rootel.removeChild(child);
   })
   if(e.target.value.length > 0){
-    const allEpisodes = getAllEpisodes().filter(ep => ep.name.indexOf(e.target.value) > -1);
+    const allEpisodes = getAllEpisodes().filter(ep => ep.name.toLowerCase().indexOf(e.target.value.toLowerCase()) > -1);
     makePageForEpisodes(allEpisodes);
   } else {
     setup();
